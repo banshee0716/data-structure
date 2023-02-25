@@ -11,11 +11,12 @@ class Solution:
         # 將數字轉換成最小的偶數和最大的數字組成的tuple加入heap中
         for num in nums:
             tmp = num
-            while tmp%2 == 0: tmp//=2
-            heap.append((tmp, max(num, tmp*2)))
-        
+            while tmp % 2 == 0:
+                tmp //= 2
+            heap.append((tmp, max(num, tmp * 2)))
+
         # 取出heap中最大的數字作為Max
-        Max = max(i for i,j in heap)
+        Max = max(i for i, j in heap)
         heapify(heap)
         ans = float("inf")
 
@@ -27,11 +28,12 @@ class Solution:
             ans = min(ans, Max - num)
             # 如果當前數字小於最大數字限制，將該數字乘以2後重新放入heap中
             if num < limit:
-                heappush(heap, (num*2, limit))
+                heappush(heap, (num * 2, limit))
                 # 更新最大數字
-                Max = max(Max, num*2)
-            
+                Max = max(Max, num * 2)
+
         # 回傳答案
         return ans
-# @lc code=end
 
+
+# @lc code=end
