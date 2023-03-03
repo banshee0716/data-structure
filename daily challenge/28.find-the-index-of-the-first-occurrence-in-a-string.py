@@ -6,6 +6,7 @@
 
 # @lc code=start
 
+
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         end = len(needle)
@@ -14,15 +15,16 @@ class Solution:
                 return i
             end += 1
         return -1
-'''
+
+
+"""
 api解
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle in haystack:
             return haystack.index(needle)
         return -1
-'''
-
+"""
 
 
 # @lc code=end
