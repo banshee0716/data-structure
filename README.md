@@ -10,8 +10,8 @@
 ![LeetCode Stats](https://leetcard.jacoblin.cool/NTNU_idiot?theme=light&font=Sen&ext=activity)
 <br>
 ## 課程作業
-- [HW1]()
 
+- [HW1]()
 - HW2: 
 - HW3: 
 - HW4: 
