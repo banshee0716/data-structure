@@ -8,8 +8,11 @@
 - **Email**: 40802048e@gapps.ntnu.edu.tw
 - **期待持續成長**
 <br>
+
 ![LeetCode Stats](https://leetcard.jacoblin.cool/NTNU_idiot?theme=light&font=Sen&ext=activity)
+
 <br>
+
 ## 課程作業
 
 - [HW1]()
