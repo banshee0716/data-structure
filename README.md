@@ -1,5 +1,3 @@
-# README
-
 # data-structure
 
 ## About me
