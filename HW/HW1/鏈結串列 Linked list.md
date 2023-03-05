@@ -23,7 +23,7 @@
 
 ## 適用場景
 
-- 需要頻繁地**插入與刪除**資料。（不像Array需要騰出大量的固定空間，linked list可以輕易地通過不同的指標串聯node。)
+- 需要**頻繁地插入與刪除**資料。（不像Array需要騰出大量的固定空間，linked list可以輕易地通過不同的指標串聯node。)
 - 需要頻繁分離與合併（split and merge）資料。
 - 不需要隨機存取的資料。
 - 遞迴友好，因此成為大多函數式語言中基本資料型別之一。
@@ -92,6 +92,16 @@ Sentinal node 一個特殊的節點，資料值為 NULL 的節點，用意代表
 
 值得觀察的是，許多操作因為單向鏈結串列只能從 head 開始搜索的緣故，執行時間都呈線性$O(n)$，使用上要特別注意。
 
+## Linked List現實中的應用
+
+1. 低級別的內存管理（Low Level Memory Management），以C語言為例：
+- `malloc()`、 `free()`: 見[Heap Management](https://www.syslinux.org/wiki/index.php?title=Heap_Management)
+- `chart * chart_ptr = (chart*)malloc(30);`: 取得30byte的heap memory
+1. 許多Windows的應用程式：工具列視窗切換、PhotoViewer
+2. 區塊鏈技術
+
+[https://camo.githubusercontent.com/214922f682641e98454a1da4432f62c1c2e43734800b73b38229da6b85317fda/68747470733a2f2f692e696d6775722e636f6d2f4663714e6e6d7a2e706e67](https://camo.githubusercontent.com/214922f682641e98454a1da4432f62c1c2e43734800b73b38229da6b85317fda/68747470733a2f2f692e696d6775722e636f6d2f4663714e6e6d7a2e706e67)
+
 ## Python實作
 
 部分實作上的使用原因：
@@ -105,7 +115,50 @@ Sentinal node 一個特殊的節點，資料值為 NULL 的節點，用意代表
     [Python linked list實作](https://www.notion.so/Python-linked-list-08b441d6acd34f5b9f7e75de245e92f1)
     
 
-### 參考資料
+[leetcode 707 design linked list](https://www.notion.so/leetcode-707-design-linked-list-a7b9bd507e0e44bcb535d4b3046c347b)
+
+## linux核心的linked list實作
+
+在上面的實作當中，程式碼把整個linked-list的實作分成兩個類別（class）來模擬底層操作，一個是包含了資料及指標兩個屬性的節點（class Node），另一個則是定義出各個操作的list本身（class MyLinkedList）。
+
+但在更為貼近底層的程式語言中（擁有指標，能對記憶體直接進行操作），Linked list的節點之間通過指標連結，更為直觀。在普通的linked list實作版本中，節點通常由包含節點數據的結構體和指向下一個節點的指針組成。我們可能會創建如下的結構體：
+
+```c
+typedef struct node {
+    int val;
+    struct node *next;
+} Node;
+```
+
+而在Linux核心中，linked list的實作方式與普通的linked list有些許不同。節點則由一個只包含指向前一個和下一個節點的指針的結構體所組成，而節點數據則保存在相鄰的數據結構中。這種設計方式稱為“container_of”。我們可能會創建如下的結構體：
+
+```c
+typedef struct list_head {
+    struct list_head *prev, *next;
+} ListHead;
+
+typedef struct my_data {
+    int val;
+    ListHead list;
+} MyData;
+```
+
+- 這裡，**`list_head`**結構體代表linked list的節點，而**`my_data`**結構體則代表包含在節點中的數據。
+- 在**`my_data`**結構體中，我們使用**`ListHead`**作為linked list節點的指針，而不是像在普通的linked list中使用**`Node`**結構體中的**`next`**指針。這樣，每個**`my_data`**結構體都能被轉換為一個**`list_head`**節點，而**`list_head`**節點只需包含指向前一個和下一個節點的指針。
+- 這種實現方式的好處是可以降低記憶體使用量，因為節點數據被存儲在相鄰的數據結構中。此外，**`container_of`**實現還可以減少節點的指針數量，進而降低了指針的間接引用次數，提高了運行效率。
+- 總體來說，Linux核心的linked list實現方式與普通的linked list相比，可以有效地減少記憶體使用量，提高運行效率，是一種更為高效的linked list實現方式。
+
+### 相關文章
+
+[漫談 linked list 在 linux kernel 中的不一樣](https://haogroot.com/2019/12/12/漫談-linked-list-在-linux-kernel-中的不一樣/)
+
+[從刪除 linked-list node 看程式設計的品味](https://medium.com/fcamels-notes/從刪除-linked-list-node-看程式設計的品味-b597cc5af785)
+
+[[你所不知道的 C 語言](https://hackmd.io/@sysprog/c-prog/): linked list 和非連續記憶體 - HackMD](https://hackmd.io/@sysprog/c-linked-list)
+
+[linked list 和非連續記憶體操作 | Jason note](https://jasonblog.github.io/note/c/linked_list_he_fei_lian_xu_ji_yi_ti_cao_zuo.html)
+
+## 參考資料
 
 [單向鏈結串列 Singly linked list](https://rust-algo.club/collections/singly_linked_list/index.html#%E6%95%88%E8%83%BD)
 
