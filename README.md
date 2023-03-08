@@ -13,7 +13,7 @@
 
 ## 課程作業
 
-- HW1 :
+- HW1 : [Prefix Sum、String](https://www.youtube.com/watch?v=GkBrdpy9IUg&feature=youtu.be)
 - HW2 :
 - HW3 :
 - HW4 :
