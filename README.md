@@ -22,15 +22,20 @@
 ## 檔案分類
 
 - [daily challenge](https://github.com/banshee0716/data-structure/tree/master/daily%20challenge) :就是在課程期間的各種每日挑戰題目，盡可能完成。裡面的題目比較沒有明顯分類所以稍顯雜亂，應該也屬於期末作業的部分。
-- [HW](TODO) :在某一次的作業中需要做的事情，大致上分為筆記和程式碼的部分。我會用Notion來做為筆記的主要紀錄工具並匯出為markdown檔案，同時附上實作後的程式碼。
+- [HW](TODO) ：在某一次的作業中需要做的事情，大致上是解題的程式碼部分。
+- [Note](todo) ：內容為課程中提到的演算法的筆記和學習心得。我會用Notion來做為筆記的主要紀錄工具並匯出為markdown檔案，部分會附上實作後的程式碼。
 - [binary search](https://github.com/banshee0716/data-structure/tree/master/binary%20search)
-:這次期末的主要成果部分，因為我在寫binary search問題實在一些子區間上經常會遇上一些問題，
+：這次期末的主要成果部分，因為我在寫binary search問題實在一些子區間上經常會遇上一些問題，
 因此希望藉這個機會能多寫一點相關的題目並且詳盡的檢討。
 
 ## Week1(2/20):
 
 課程介紹 講解上課方式以及計分方式，並處理帳號和加退選事宜。 算是比較輕鬆的一周吧，也趁機刷了一點題目維持手感跟規劃了一下期末要做的事情。
 
-## Week3(3/6):講授LEETCODE 75
+## Week3(3/6)：講授LEETCODE 75
 
-## Week4(3/13): LeetCode 75 Level 1，Prefix Sum、String。
+## Week4(3/13)：LeetCode 75 Level 1，Prefix Sum、String。
+https://github.com/banshee0716/data-structure/blob/master/HW/HW1/%E5%89%8D%E7%B6%B4%E5%92%8C%20Prefix%20sum.md
+## Week5(3/20)：LeetCode 75 Level 1，Linked List。
+https://github.com/banshee0716/data-structure/blob/master/HW/HW1/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list.md
+## Week6(3/27)：LeetCode 75 Level 1，Greedy、Tree。
