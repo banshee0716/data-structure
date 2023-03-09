@@ -23,7 +23,7 @@
 
 - [daily challenge](https://github.com/banshee0716/data-structure/tree/master/daily%20challenge) :就是在課程期間的各種每日挑戰題目，盡可能完成。裡面的題目比較沒有明顯分類所以稍顯雜亂，應該也屬於期末作業的部分。
 - [HW](TODO) ：在某一次的作業中需要做的事情，大致上是解題的程式碼部分。
-- [Note](todo) ：內容為課程中提到的演算法的筆記和學習心得。我會用Notion來做為筆記的主要紀錄工具並匯出為markdown檔案，部分會附上實作後的程式碼。
+- [Note](https://github.com/banshee0716/data-structure/tree/master/Note) ：內容為課程中提到的演算法的筆記和學習心得。我會用Notion來做為筆記的主要紀錄工具並匯出為markdown檔案，部分會附上實作後的程式碼。
 - [binary search](https://github.com/banshee0716/data-structure/tree/master/binary%20search)
 ：這次期末的主要成果部分，因為我在寫binary search問題實在一些子區間上經常會遇上一些問題，
 因此希望藉這個機會能多寫一點相關的題目並且詳盡的檢討。
