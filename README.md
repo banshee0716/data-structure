@@ -33,11 +33,11 @@
 課程介紹 講解上課方式以及計分方式，並處理帳號和加退選事宜。 算是比較輕鬆的一周吧，也趁機刷了一點題目維持手感跟規劃了一下期末要做的事情。
 
 ## Week3(3/6)：講授LEETCODE 75
-https://github.com/banshee0716/data-structure/blob/master/Note/%E6%BC%B8%E9%80%B2%E7%AC%A6%E8%99%9F%20Asymptotic%20Notation%2079aac38e7bb9435ebd513fdbdbb5daea.md
+[漸進符號筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E6%BC%B8%E9%80%B2%E7%AC%A6%E8%99%9F%20Asymptotic%20Notation%2079aac38e7bb9435ebd513fdbdbb5daea.md)
 ## Week4(3/13)：LeetCode 75 Level 1，Prefix Sum、String。
-https://github.com/banshee0716/data-structure/blob/master/Note/%E5%89%8D%E7%B6%B4%E5%92%8C%20Prefix%20sum.md <br>
+[Prefix筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E5%89%8D%E7%B6%B4%E5%92%8C%20Prefix%20sum.md) <br>
 
-https://github.com/banshee0716/data-structure/blob/master/Note/%E5%AD%97%E4%B8%B2%20String%20c73fcdf8b96d45aa8491c429fd14f2b0.md
+[string筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E5%AD%97%E4%B8%B2%20String%20c73fcdf8b96d45aa8491c429fd14f2b0.md)
 ## Week5(3/20)：LeetCode 75 Level 1，Linked List。
-https://github.com/banshee0716/data-structure/blob/master/Note/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list.md
+[linked list筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list.md)
 ## Week6(3/27)：LeetCode 75 Level 1，Greedy、Tree。
