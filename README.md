@@ -14,14 +14,14 @@
 ## 課程作業
 
 - HW1 : [Prefix Sum、String](https://www.youtube.com/watch?v=GkBrdpy9IUg&feature=youtu.be)
-- HW2 :
-- HW3 :
-- HW4 :
-- HW5：
+- HW2 : [Greedy、Tree]()
+- HW3 : [Binary Search]()
+- HW4 : [Graph/BFS/DFS]()
+- HW5 : [Stack、Heap]()
 
 ## 檔案分類
 
-- [daily challenge](https://github.com/banshee0716/data-structure/tree/master/daily%20challenge) :就是在課程期間的各種每日挑戰題目，盡可能完成。裡面的題目比較沒有明顯分類所以稍顯雜亂，應該也屬於期末作業的部分。
+- [daily challenge](https://github.com/banshee0716/data-structure/tree/master/daily%20challenge) : 就是在課程期間的各種每日挑戰題目，盡可能完成。裡面的題目比較沒有明顯分類所以稍顯雜亂，應該也屬於期末作業的部分。
 - [HW](TODO) ：在某一次的作業中需要做的事情，大致上是解題的程式碼部分。
 - [Note](https://github.com/banshee0716/data-structure/tree/master/Note) ：內容為課程中提到的演算法的筆記和學習心得。我會用Notion來做為筆記的主要紀錄工具並匯出為markdown檔案，部分會附上實作後的程式碼。
 - [binary search](https://github.com/banshee0716/data-structure/tree/master/binary%20search)
