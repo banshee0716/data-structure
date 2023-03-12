@@ -98,9 +98,15 @@ Sentinal node 一個特殊的節點，資料值為 NULL 的節點，用意代表
 - `malloc()`、 `free()`: 見[Heap Management](https://www.syslinux.org/wiki/index.php?title=Heap_Management)
 - `chart * chart_ptr = (chart*)malloc(30);`: 取得30byte的heap memory
 1. 許多Windows的應用程式：工具列視窗切換、PhotoViewer
-2. 區塊鏈技術
+2. [區塊鏈技術](https://c1088kiss.medium.com/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%8A%80%E8%A1%93%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E9%9B%A3%E4%BB%A5%E7%AB%84%E6%94%B9-%E5%B0%B1%E8%AE%93%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B8-%E5%93%88%E5%B8%8C-%E5%91%8A%E8%A8%B4%E4%BD%A0-ca1dac4cb05b)
 
-[https://camo.githubusercontent.com/214922f682641e98454a1da4432f62c1c2e43734800b73b38229da6b85317fda/68747470733a2f2f692e696d6775722e636f6d2f4663714e6e6d7a2e706e67](https://camo.githubusercontent.com/214922f682641e98454a1da4432f62c1c2e43734800b73b38229da6b85317fda/68747470733a2f2f692e696d6775722e636f6d2f4663714e6e6d7a2e706e67)
+![可以視為用hash function實作鏈結的linked list](%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list%203fbb4410dede4b18bd03d801a461ff9c/Untitled.png)
+
+可以視為用hash function實作鏈結的linked list
+
+![圖源來自**[Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain)，希望我不要因為這張圖被出征.......。**](%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list%203fbb4410dede4b18bd03d801a461ff9c/Untitled%201.png)
+
+圖源來自**[Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain)，希望我不要因為這張圖被出征.......。**
 
 ## Python實作
 
@@ -143,7 +149,7 @@ typedef struct my_data {
 } MyData;
 ```
 
-- 這裡，**`list_head`**結構體代表linked list的節點，而**`my_data`**結構體則代表包含在節點中的數據。
+- **`list_head`**結構體代表linked list的節點，而**`my_data`**結構體則代表包含在節點中的數據。
 - 在**`my_data`**結構體中，我們使用**`ListHead`**作為linked list節點的指針，而不是像在普通的linked list中使用**`Node`**結構體中的**`next`**指針。這樣，每個**`my_data`**結構體都能被轉換為一個**`list_head`**節點，而**`list_head`**節點只需包含指向前一個和下一個節點的指針。
 - 這種實現方式的好處是可以降低記憶體使用量，因為節點數據被存儲在相鄰的數據結構中。此外，**`container_of`**實現還可以減少節點的指針數量，進而降低了指針的間接引用次數，提高了運行效率。
 - 總體來說，Linux核心的linked list實現方式與普通的linked list相比，可以有效地減少記憶體使用量，提高運行效率，是一種更為高效的linked list實現方式。
