@@ -41,3 +41,7 @@
 ## Week5(3/20)：LeetCode 75 Level 1，Linked List。
 [linked list筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list.md)
 ## Week6(3/27)：LeetCode 75 Level 1，Greedy、Tree。
+
+[Greedy筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E8%B2%AA%E5%A9%AA%E6%BC%94%E7%AE%97%E6%B3%95%20greedy.md)
+
+[BST筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9%20Binary%20Search%20Tree%207190cdffb30a4178a1e66f42ca8df1f7.md)
