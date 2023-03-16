@@ -99,14 +99,15 @@ Sentinal node 一個特殊的節點，資料值為 NULL 的節點，用意代表
 - `chart * chart_ptr = (chart*)malloc(30);`: 取得30byte的heap memory
 1. 許多Windows的應用程式：工具列視窗切換、PhotoViewer
 2. [區塊鏈技術](https://c1088kiss.medium.com/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%8A%80%E8%A1%93%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E9%9B%A3%E4%BB%A5%E7%AB%84%E6%94%B9-%E5%B0%B1%E8%AE%93%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B8-%E5%93%88%E5%B8%8C-%E5%91%8A%E8%A8%B4%E4%BD%A0-ca1dac4cb05b)
+    
+    ![可以視為用hash function實作鏈結的linked list](%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list%203fbb4410dede4b18bd03d801a461ff9c/Untitled.png)
+    
+    可以視為用hash function實作鏈結的linked list
+    
 
-![可以視為用hash function實作鏈結的linked list](%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list%203fbb4410dede4b18bd03d801a461ff9c/Untitled.png)
+![圖源來自**[Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain)，**希望我不要因為這張圖被出征.......。](%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list%203fbb4410dede4b18bd03d801a461ff9c/Untitled%201.png)
 
-可以視為用hash function實作鏈結的linked list
-
-![圖源來自**[Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain)，希望我不要因為這張圖被出征.......。**](%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list%203fbb4410dede4b18bd03d801a461ff9c/Untitled%201.png)
-
-圖源來自**[Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain)，希望我不要因為這張圖被出征.......。**
+圖源來自**[Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain)，**希望我不要因為這張圖被出征.......。
 
 ## Python實作
 

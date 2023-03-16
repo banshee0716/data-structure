@@ -46,10 +46,10 @@ $∀n≥2, n≤f(n)=3n+4≤5n∀$
 ## 常見的複雜度
 
 - $O(1)$：常數時間，演算法執行時間與資料量毫無瓜葛。例如讀取 array 首個元素。
-- $O(logn)$：執行時間隨資料量呈對數比例成長。常見的例子是二元搜索（Binary search）。
+- $O(logn)$：執行時間隨資料量呈對數比例成長。常見的例子是[二元搜索（Binary search）](https://rust-algo.club/searching/binary_search)。
 - $O(n)$：執行時間隨資料量呈線性成長，例如在無序的 array 中尋找特定值。
-- $O(nlogn)$：執行時間隨資料量呈線性對數成長，常見的合併排序（Mergesort）的複雜度即如斯。
-- $O(n^2)$：執行時間隨資料量呈平方成長，例如一些效率不彰的排序法如氣泡排序（Bubble sort）。
+- $O(nlogn)$：執行時間隨資料量呈線性對數成長，常見的[合併排序（Mergesort）](https://rust-algo.club/sorting/mergesort)的複雜度即如斯。
+- $O(n^2)$：執行時間隨資料量呈平方成長，例如一些效率不彰的排序法如[氣泡排序（Bubble sort）](https://rust-algo.club/sorting/bubble_sort)。
 - $O(n^3)$：執行時間隨資料量呈立方成長，常見例子為 naïve 實作的矩陣乘法。
 - $O(c^n)$：執行時間隨資料量呈指數成長。
 - $O(n!)$：執行時間隨資料量呈階乘成長，大部分情況下，這是非常差勁的複雜度。（ex：如果超過20的話會執行到宇宙滅亡）
