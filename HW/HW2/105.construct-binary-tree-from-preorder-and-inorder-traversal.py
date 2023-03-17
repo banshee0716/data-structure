@@ -13,29 +13,36 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        if inorder:
-            ind = inorder.index(preorder.pop(0))
-            root = TreeNode(inorder[ind])
-            root.left = self.buildTree(preorder, inorder[0:ind])
-            root.right = self.buildTree(preorder, inorder[ind + 1 :])
-            return root
-        
+
+        # 如果中序遍歷為空，則返回None
+        if not inorder:
+            return None
+
+        # 建立根節點，其值為前序遍歷的第一個元素
+        root = TreeNode(preorder.pop(0))
+
+        # 找到根節點在中序遍歷中的位置
+        index = inorder.index(root.val)
+        # 如果要用比較底層的語言來刻，我會用二分搜尋來找INDEX但先不做討論。(O(logn))
+
+        # 遞迴建立左子樹和右子樹
+        root.left = self.buildTree(preorder, inorder[:index])
+        root.right = self.buildTree(preorder, inorder[index + 1 :])
+
+        return root
 
 
-
-
-
-'''
+"""
 process()
 preorder(root.left)
 preorder(root.right)
-'''
+"""
 
-'''
+"""
 inorder(root.left)
 process()
 inorder(root.right)
-'''
+"""
 
 
 # @lc code=end
