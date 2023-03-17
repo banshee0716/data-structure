@@ -14,7 +14,7 @@
 ## 課程作業
 
 - HW1 : [Prefix Sum、String](https://www.youtube.com/watch?v=GkBrdpy9IUg&feature=youtu.be)
-- HW2 : [Greedy、Tree]()
+- HW2 : [Greedy、Tree](https://www.youtube.com/watch?v=-2kUnGiv5_g&feature=youtu.be&ab_channel=ChenJacky)
 - HW3 : [Binary Search]()
 - HW4 : [Graph/BFS/DFS]()
 - HW5 : [Stack、Heap]()
