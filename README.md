@@ -33,21 +33,20 @@
 課程介紹 講解上課方式以及計分方式，並處理帳號和加退選事宜。 算是比較輕鬆的一周吧，也趁機刷了一點題目維持手感跟規劃了一下期末要做的事情。
 
 ## Week3 (3/6)：講授LEETCODE 75
-[漸進符號筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E6%BC%B8%E9%80%B2%E7%AC%A6%E8%99%9F%20Asymptotic%20Notation%2079aac38e7bb9435ebd513fdbdbb5daea.md)
+[漸進符號筆記](https://sphenoid-sky-503.notion.site/Asymptotic-Notation-79aac38e7bb9435ebd513fdbdbb5daea)
 ## Week4 (3/13)：Prefix Sum、String。
-[Prefix筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E5%89%8D%E7%B6%B4%E5%92%8C%20Prefix%20sum.md) <br>
+[Prefix筆記](https://sphenoid-sky-503.notion.site/Prefix-sum-9ce63ba18ee244f08ee8cf83b42abde8) <br>
 
-[string筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E5%AD%97%E4%B8%B2%20String%20c73fcdf8b96d45aa8491c429fd14f2b0.md)
+[string筆記](https://sphenoid-sky-503.notion.site/String-c73fcdf8b96d45aa8491c429fd14f2b0)
 ## Week5 (3/20)：Linked List。
-[linked list筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E9%8F%88%E7%B5%90%E4%B8%B2%E5%88%97%20Linked%20list.md)
+[linked list筆記](https://sphenoid-sky-503.notion.site/Linked-list-3fbb4410dede4b18bd03d801a461ff9c)
 ## Week6 (3/27)：Greedy、Tree。
 
-[Greedy筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E8%B2%AA%E5%A9%AA%E6%BC%94%E7%AE%97%E6%B3%95%20greedy.md)
+[Greedy筆記](https://sphenoid-sky-503.notion.site/greedy-08ec382504914d68bf7950d85c4a741c)
 
-[BST筆記](https://github.com/banshee0716/data-structure/blob/master/Note/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9%20Binary%20Search%20Tree%207190cdffb30a4178a1e66f42ca8df1f7.md)
+[BST筆記](https://sphenoid-sky-503.notion.site/Binary-Search-Tree-7190cdffb30a4178a1e66f42ca8df1f7)
 
 ## Week8 (4/10)：Binary Search
-**從本周開始不把筆記的markdown傳上來而是直接用notion的網址連結**
 
 [binary search 筆記](https://sphenoid-sky-503.notion.site/Binary-search-863620e44cc54f0f87882f907031a7f8)
 ## Week9 (4/17)：Binary Search Tree
