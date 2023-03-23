@@ -55,15 +55,20 @@
 [RB Tree 筆記](https://sphenoid-sky-503.notion.site/Red-Black-Tree-4367716393d84bbf9c3abafa83345359)
 ## Week10 (4/24)：Graph/BFS/DFS
 
+[DFS & BFS 筆記](https://sphenoid-sky-503.notion.site/BFS-DFS-d3011d979ce448e9ac4cea66db27937c)
 ## Week11 (5/1)：hashmap
 
-[hashmap筆記](https://sphenoid-sky-503.notion.site/Hash-map-74d70312320b492887432a85273edd9e)
+[hashmap 筆記](https://sphenoid-sky-503.notion.site/Hash-map-74d70312320b492887432a85273edd9e)
 
 [bloom filter 筆記](https://sphenoid-sky-503.notion.site/Bloom-filter-65b2a223844c42a490d9b71f80f88f65)
 
 ## Week 12 (5/8)：Stack、heap
 
-
 [Stack筆記](https://sphenoid-sky-503.notion.site/Stack-6df34f01a75a45fcbb077e8b3af3c582)
 
 [heap 筆記](https://sphenoid-sky-503.notion.site/Heap-aca66687c2ed44cd854a522a50d0cd81)
+
+## Week 13：sorting(非課綱內容)：
+[Quick sort筆記](https://sphenoid-sky-503.notion.site/Quick-sort-05c169ce97f84722b78b884280ccd3be)
+
+[merge sort筆記](https://sphenoid-sky-503.notion.site/Merge-sort-9d1d994699aa46db87bd6f70d04fad28)
