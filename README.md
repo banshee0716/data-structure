@@ -72,3 +72,10 @@
 [Quick sort筆記](https://sphenoid-sky-503.notion.site/Quick-sort-05c169ce97f84722b78b884280ccd3be)
 
 [merge sort筆記](https://sphenoid-sky-503.notion.site/Merge-sort-9d1d994699aa46db87bd6f70d04fad28)
+
+
+
+
+## 期末心得
+
+![衣服來了](https://github.com/banshee0716/data-structure/blob/master/S__50470956.jpg)
