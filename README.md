@@ -77,5 +77,3 @@
 
 
 ## 期末心得
-
-![衣服來了](https://github.com/banshee0716/data-structure/blob/master/S__50470957.jpg)
