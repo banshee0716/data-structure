@@ -58,9 +58,11 @@
 ## Week10 (4/24)：Graph/BFS/DFS
 
 [DFS & BFS 筆記](https://sphenoid-sky-503.notion.site/BFS-DFS-63c87f21723141e48fad524f5b9c8d48)
+
+[Dijkstra筆記](https://sphenoid-sky-503.notion.site/Dijkstra-s-algorithm-0d51847767954aa6829849761f75de91)
 ## Week11 (5/1)：hashmap
 
-[hashmap 筆記](https://sphenoid-sky-503.notion.site/Hash-map-74d70312320b492887432a85273edd9e)
+[hashmap 筆記](https://sphenoid-sky-503.notion.site/Hash-map-365dc3a218df4525aded9abe927cfcc7)
 
 [bloom filter 筆記](https://sphenoid-sky-503.notion.site/Bloom-Filter-4e1decf49bf445ad8d6b4284a31f7564)
 
