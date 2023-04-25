@@ -5,6 +5,7 @@
 #
 
 # @lc code=start
+
 # 引入 heapq 模塊以使用優先隊列功能
 from heapq import *
 
