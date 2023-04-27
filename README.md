@@ -17,7 +17,7 @@
 - HW2 : [Greedy、Tree](https://www.youtube.com/watch?v=-2kUnGiv5_g&feature=youtu.be&ab_channel=ChenJacky)
 - HW3 : [Binary Search](https://www.youtube.com/watch?v=5Xzsmuy03g0&feature=youtu.be&ab_channel=ChenJacky)
 - HW4 : [Graph/BFS/DFS](https://www.youtube.com/watch?v=J1DiY1_Ckl8&ab_channel=ChenJacky)
-- HW5 : [Stack、Heap]()
+- HW5 : [Stack、Heap](https://www.youtube.com/watch?v=3yZfp1C3xGc&ab_channel=ChenJacky)
 
 ## 檔案分類
 

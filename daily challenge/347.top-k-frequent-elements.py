@@ -29,6 +29,7 @@ class Solution:
             # 將出現次數的負數和數字一起放入最小堆中
             # 這樣做是因為 heapq 模塊僅支持最小堆，我們需要最大堆來按出現次數排序
             heap.append((-val, key))
+            print(heap)
 
         # 將列表轉換為最小堆
         heapq.heapify(heap)
@@ -52,12 +53,13 @@ class Solution:
 創建最小堆的時間複雜度為 O(m)，其中 m 為不同數字的數量。
 從最小堆中彈出 k 個元素的時間複雜度為 O(klogm)。
 綜合以上分析，此算法的總時間複雜度為 O(n + m + klogm)。
+由於m <= n，因此在最壞情況下，時間複雜度為O(n + k log n)。
 
 空間複雜度分析：
 
 字典 num_dict 的空間複雜度為 O(m)，其中 m 為不同數字的數量。
 最小堆 heap 的空間複雜度為 O(m)。
 結果列表 res 的空間複雜度為 O(k)。
-綜合以上分析，此算法的總空間複雜度為 O(m + m + k) 
+綜合以上分析，此算法的總空間複雜度為 O(m + m + k)
 """
 # @lc code=end
