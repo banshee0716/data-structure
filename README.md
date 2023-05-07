@@ -60,7 +60,7 @@
 [DFS & BFS 筆記](https://sphenoid-sky-503.notion.site/BFS-DFS-63c87f21723141e48fad524f5b9c8d48)
 
 [Dijkstra筆記](https://sphenoid-sky-503.notion.site/Dijkstra-s-algorithm-0d51847767954aa6829849761f75de91)
-## Week11 (5/1)：hashmap
+## Week11 (5/1)：Hash
 
 [hashmap 筆記](https://sphenoid-sky-503.notion.site/Hash-map-365dc3a218df4525aded9abe927cfcc7)
 
@@ -74,12 +74,13 @@
 
 [queue筆記](https://sphenoid-sky-503.notion.site/Queue-bc03348f351e4ece847615df99e79d02)
 
-## Week 13：sorting(非課綱內容)：
+## Week 13：Sorting(非課綱內容)：
 [Quick sort筆記](https://sphenoid-sky-503.notion.site/Quick-sort-cfede8041e404325bb24c1a80ff830ad)
 
 [merge sort筆記](https://sphenoid-sky-503.notion.site/Merge-sort-31aab9de9d0246c38ca024081f48fcc2)
 
-
+## Week 14 Union-Find / Disjoint-Set(非課綱內容)：
+[Union-Find / Disjoint-Set筆記](https://sphenoid-sky-503.notion.site/Union-Find-Disjoint-Set-d0a6f224d77842749a2d14730f0e9be4)
 
 
 ## 期末心得
