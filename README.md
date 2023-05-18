@@ -82,5 +82,13 @@
 ## Week 14 Union-Find / Disjoint-Set(非課綱內容)：
 [Union-Find / Disjoint-Set筆記](https://sphenoid-sky-503.notion.site/Union-Find-Disjoint-Set-d0a6f224d77842749a2d14730f0e9be4)
 
+## Week 15 introsort(非課綱內容)：
+[Introsort筆記](https://sphenoid-sky-503.notion.site/Introsort-a4f6bc358c654e99a2c37768733951e2)
 
+## Week 16 skip list(非課綱內容)：
+
+[Skip list筆記](https://sphenoid-sky-503.notion.site/Skip-list-662f81af7a9e438e8167a8cf2f175dc7)
 ## 期末心得
+[心得](https://sphenoid-sky-503.notion.site/30b32166fc9e4d6aa03a35830ab5b628)
+
+[影片](https://youtu.be/e2B7YRh0J4I)
